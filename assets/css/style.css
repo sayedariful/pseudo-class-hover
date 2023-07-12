@@ -1,0 +1,21 @@
+h3 {
+    color: aqua;
+}
+h3:hover {
+    color: tomato;
+    background-color: blue;
+}
+input:focus {
+color: blue;
+outline: 0;
+border: 1px solid purple;
+}
+a:visited {
+    color: chartreuse;
+}
+/* li:last-child {
+    color: red;
+} */
+li:nth-child(3n+1) {
+    color: aqua;
+}
